@@ -1,8 +1,8 @@
 # This script will require the Web Application and permissions setup in Azure Active Directory
-$ClientID       = "d3032a0a-b2f0-42bc-a8a3-a16980e9983b"             # Should be a ~35 character string insert your info here
-$ClientSecret   = "@QTB9?2-?ODnPfOnTR9ajDgbyazIwNA6"         # Should be a ~44 character string insert your info here
+$ClientID       = "your-client-id"             # Should be a ~35 character string insert your info here
+$ClientSecret   = "your-client-secret"         # Should be a ~44 character string insert your info here
 $loginURL       = "https://login.microsoftonline.com/"
-$tenantdomain   = "williamfiddes.onmicrosoft.com"
+$tenantdomain   = "your-tenant-id" # yourdomain.onmicrosoft.com
 
 # Leave blank if you dont want to filter by AppId
 $SearchByAppId = ""
