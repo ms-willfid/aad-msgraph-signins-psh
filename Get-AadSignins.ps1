@@ -32,7 +32,7 @@ function Get-Token
     return $result
 }
 
-function Get-Report
+function Get-AadSignins
 {
     Param()
 
